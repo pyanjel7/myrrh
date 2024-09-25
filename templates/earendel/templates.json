@@ -1,0 +1,17 @@
+{
+    "AUTHORS.md" : "pymod:///noxmake.templates.default/AUTHORS.md.an",
+    "COPYRIGHT" : "pymod:///noxmake.templates.default/COPYRIGHT.an",
+    "LICENSE" : "pymod:///noxmake.templates.default/LICENSE.an",
+    "noxfile.py" : "pymod:///noxmake.templates.default/noxfile.py.an",
+    "pyproject.toml": "pymod:///noxmake.templates.default/pyproject.toml.an",
+    "README.md": "../common/README.md.an",
+    "BRANCH.md": "pymod:///noxmake.templates.default/BRANCH.md.an",
+    "CHANGELOG.md" : "pymod:///noxmake.templates.default/CHANGELOG.md.an",
+    ".git_archival.txt": "pymod:///noxmake.templates.default/.git_archival.txt",
+    ".gitignore": "pymod:///noxmake.templates.default/.gitignore",
+    ".gitattributes": "pymod:///noxmake.templates.default/.gitattributes",
+    "src": "pymod:///noxmake.templates.default/makedirs",
+    "doc": "pymod:///noxmake.templates.default/makedirs",
+    "tests": "pymod:///noxmake.templates.default/makedirs",
+    "[cfg]": ".noxmake_cfg"
+}

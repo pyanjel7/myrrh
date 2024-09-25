@@ -1,0 +1,25 @@
+# Readme
+
+## About {{ pyproject.project.name }}
+
+This package is part of the Myrrh project.
+
+This package serves as a foundational "design" package, providing a pre-configured skeleton for the Myrrh framework with a predefined Python namespace structure.
+It will be designed to streamline the initial setup process for developers working with the Myrrh framework.
+
+{{ pyproject.project.description }}
+
+{% for s in pyproject.project.keywords %}
+{%- if s.startswith("baseline") %}
+{{ s | capitalize }}
+{%- endif %}
+{%- endfor %}
+
+## Requirements
+
+* Python {{ pyproject.project["requires-python"] }}
+
+
+## License
+
+{{ license["name"] }}

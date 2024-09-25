@@ -1,0 +1,25 @@
+# Readme
+
+## About {{ pyproject.project.name }}
+
+This package is part of the Myrrh project.
+
+{{ pyproject.project.description }}
+
+{% for s in pyproject.project.keywords %}
+{%- if s.startswith("baseline") %}
+{{ s | capitalize }}
+{%- endif %}
+{%- endfor %}
+
+## Requirements
+
+* Python {{ pyproject.project["requires-python"] }}
+
+## Installation
+
+This package should only be installed as a dependency.
+
+## License
+
+{{ license["name"] }}
